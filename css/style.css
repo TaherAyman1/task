@@ -1,0 +1,334 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container_video{
+    width: 1120px;
+    height: 645px;
+    margin: auto;
+    position: relative;
+}
+#vid{
+    display: block;
+    margin: 0 auto;
+}
+#icon1{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 305px 550px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    z-index: 100;
+}
+#icon2{
+    position: absolute;
+    top: 85px;
+    left: 502px;
+    padding: 45px 145px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: none;
+       z-index: 101;
+}
+
+#icon3{
+    position: absolute;
+    top: 97px;
+    left: 833px;
+    padding: 30px 68px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: none;
+       z-index: 102;
+}
+
+#icon4{
+    position: absolute;
+    left: 68px;
+    top: 15px;
+    padding: 27px 93px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: block;
+       z-index: 103;
+}
+#icon44{
+    position: absolute;
+    left: 12px;
+    top: 15px;
+    padding: 27px 30px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: block;
+       z-index: 103;
+}
+#icon5{
+    position: absolute;
+    right: 68px;
+    top: 15px;
+    padding: 27px 93px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: block;
+       z-index: 104;
+}
+
+#skipIcon{
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    padding: 27px 27px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: block;
+       z-index: 105;
+}
+#skipIcon2{
+
+  position: absolute;
+    top: 148px;
+    left: 833px;
+    padding: 30px 68px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: none; 
+    z-index: 102;
+
+}
+
+#Mrasser{
+        position: absolute;
+    top: 143px;
+    left: 549px;
+    padding: 37px 125px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: none; 
+    z-index: 102;
+}
+#shap1{
+    position: absolute;
+       left: 576px;
+    top: 326px;
+    padding: 27px 27px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: none;
+       z-index: 106;
+}
+#shap2 {
+    position: absolute;
+    left: 499px;
+    top: 375px;
+    padding: 27px 27px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: none;
+       z-index: 107;
+}
+#shap3 {
+    position: absolute;
+    left: 539px;
+    top: 453px;
+    padding: 27px 27px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: none;
+       z-index: 108;
+}
+#shap4 {
+    position: absolute;
+   left: 670px;
+    top: 495px;
+    padding: 27px 27px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: none;
+       z-index: 109;
+}
+#shap5 {
+    position: absolute;
+    left: 447px;
+    bottom: 38px;
+    padding: 27px 107px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: none;
+       z-index: 110;
+}
+#redfile {
+    position: absolute;
+    left: 399px;
+    bottom: 158px;
+    padding: 27px 107px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: none;
+       z-index: 111;
+}
+
+#diagnose {
+    position: absolute;
+    left: 623px;
+    bottom: 41px;
+    padding: 42px 220px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: none;
+       z-index: 112;
+}
+#Next {
+position: absolute;
+    left: 623px;
+    bottom: 61px;
+    padding: 65px 220px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: none;
+    z-index: 112;
+}
+#Next2 {
+    position: absolute;
+    left: 57px;
+    bottom: 61px;
+    padding: 65px 220px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: none;
+    z-index: 112;
+}
+#Treatment2 {
+position: absolute;
+    left: 427px;
+    top: 208px;
+    padding: 42px 129px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: none;
+    z-index: 112;
+}
+
+#Asser2 {
+    position: absolute;
+    left: 265px;
+    top: 83px;
+    padding: 36px 131px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: none;
+    z-index: 150;
+}
+#Bazeer2 {
+    position: absolute;
+    right: 226px;
+    top: 83px;
+    padding: 36px 102px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: none;
+    z-index: 110;
+}
+#sama3a{
+
+position: absolute;
+    left: 85px;
+    bottom: 91px;
+    padding: 73px 72px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1px;
+    display: none; 
+    z-index: 109;
+
+
+}
+#hand1{
+    position: absolute;
+    left: 890px;
+    top: 290px;
+    width: 50px;
+    display: none;
+}
+
+#hand2{
+    position: absolute;
+    top: 300px;
+    left: 390px;
+    width: 50px;
+    display: none;
+}
+#sphy{
+    filter: invert(1);
+    position: absolute;
+    top: 480px;
+    filter: 1;
+    left: 580px;
+    width: 110px;
+    display: none;
+}

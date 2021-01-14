@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Clinic Video</title>
+    <link rel="stylesheet" href="css/style.css" />
+<body>
+
+    <div id="container_video">
+        <video width="1120" height="645"  id="vid" autoplay="autoplay">
+            <source src="./final.mp4" type="video/mp4">        
+        </video>
+        <!-- <img src="imgs/icon1.png" id="icon1" onclick="playPause()">  -->
+        <button id="icon1" onclick="playAndHide(this)">.</button>
+        <button id="icon2" onclick="playAndHide(this)">.</button>
+        <button id="icon3" onclick="skipTime48()">.</button>
+        <button id="skipIcon2" onclick="skipTime58(this)">.</button>
+        <button id="Mrasser" onclick="playAndHide(this)">.</button>  
+        <button id="icon5" onclick="PlayBAZEER()">.</button>
+        <button id="icon4" onclick="PlayAsser()">.</button>
+
+        <button id="icon44" onclick="PlayFromStart()">.</button>
+
+         <button id="sama3a" onclick="playAndHide(this)">.</button>
+
+
+        <button id="shap1" onclick="playAndHide(this)">.</button>
+        <button id="shap2" onclick="playAndHide(this)">.</button>
+        <button id="shap3" onclick="playAndHide(this)">.</button>
+        <button id="shap4" onclick="playAndHide(this)">.</button>
+        <button id="shap5" onclick="playAndHide(this)">.</button>
+        <button id="redfile" onclick="playAndHide(this)">.</button>
+          <button id="diagnose" onclick="playAndHide(this)">.</button>
+         <button id="Next" onclick="playAndHide(this)">.</button>
+          <button id="Next2" onclick="playAndHide(this)">.</button>
+         <button id="Treatment2" onclick="playAndHide(this)">.</button>
+       <button id="Asser2" onclick="PlayAsser()">.</button>
+      <button id="Bazeer2" onclick="PlayBAZEER()">.</button>
+        <!-- <img src="imgs/hand1.png" id="hand1" >
+        <img src="imgs/hand2.png" id="hand2" >
+        <img src="imgs/sphygmomanometer.png" id="sphy"  onclick="playagain3()">  --> 
+
+        
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script> 
+        var myVideo = document.getElementById("vid"); 
+       // var test = document.getElementById("test"); 
+
+        var pauseIndex = 0;
+    
+
+        //stop at particular time
+            function pausingINTime0(){
+
+           // test.innerHTML = this.currentTime;
+            if(this.currentTime >= 40 && pauseIndex == 0) {
+                this.pause(); 
+                pauseIndex = 1 ;
+                $("#icon2").css("display","block");
+                $("#icon3").css("display","block");
+            }else if(this.currentTime >= 45 && pauseIndex == 1){
+              pauseIndex =2;
+             this.pause(); 
+             $("#sphy").fadeIn();
+             $("#icon1").css("display","block");
+            }else if(this.currentTime >= 50  && pauseIndex == 2) {
+            this.pause(); 
+              pauseIndex = 3;
+            $("#skipIcon2").css("display","block");
+            $("#Mrasser").css("display","block");
+            }else if(this.currentTime >= 55 && pauseIndex == 3) {
+               pauseIndex = 4;
+            this.pause(); 
+        
+            }else if(this.currentTime >= 66 && pauseIndex == 4) {
+               this.pause(); 
+              pauseIndex = 5;
+                $("#Asser2").css("display","block");
+                $("#Bazeer2").css("display","block");
+          
+             }else if(this.currentTime >= 142 && pauseIndex == 5) {
+               pauseIndex = 6;
+              this.pause(); 
+            $("#sama3a").css("display","block");
+              }else if(this.currentTime >= 158 && pauseIndex == 6) {
+                 pauseIndex = 7;
+            this.pause(); 
+            $("#shap1").css("display","block");
+           }else if(this.currentTime >= 164 && pauseIndex == 7) {
+              pauseIndex = 8;
+              this.pause(); 
+          $("#shap2").css("display","block");
+              }else if(this.currentTime >= 171 && pauseIndex == 8) {
+               pauseIndex = 9;
+              this.pause(); 
+              $("#shap3").css("display","block");
+              }
+              else if(this.currentTime >= 179 && pauseIndex == 9) {
+             pauseIndex = 10;
+              this.pause(); 
+                  $("#shap4").css("display","block");
+              }
+              else if(this.currentTime >= 192 && pauseIndex == 10) {
+             pauseIndex = 11;
+              this.pause(); 
+                 $("#shap5").css("display","block");
+             
+              }
+              else if(this.currentTime >= 201 && pauseIndex == 11) {
+              pauseIndex = 12;
+              this.pause(); 
+              $("#icon1").css("display","block");
+
+              }
+              else if(this.currentTime >= 270 && pauseIndex == 12) {
+              pauseIndex = 13;
+              this.pause(); 
+                 $("#redfile").css("display","block");
+              }
+              else if(this.currentTime >= 284 && pauseIndex == 13) {
+             pauseIndex = 14;
+              this.pause(); 
+               $("#Next").css("display","block");
+              }
+              else if(this.currentTime >= 304 && pauseIndex == 14) {
+             pauseIndex = 15;
+              this.pause(); 
+              $("#Next").css("display","block");
+              } else if(this.currentTime >= 331 && pauseIndex == 15) {
+            pauseIndex =16;
+              this.pause(); 
+                $("#Next").css("display","block");
+              } else if(this.currentTime >= 346 && pauseIndex == 16) {
+             pauseIndex = 17;
+              this.pause(); 
+               $("#Next2").css("display","block");
+              } else if(this.currentTime >= 360 && pauseIndex == 17) {
+             pauseIndex = 18;
+              this.pause(); 
+                  $("#Next2").css("display","block");
+              } else if(this.currentTime >= 380 && pauseIndex == 18) {
+             pauseIndex = 19;
+              this.pause(); 
+                 $("#Next2").css("display","block");
+              }
+              else if(this.currentTime >= 417 && pauseIndex == 19) {
+            pauseIndex = 20;
+              this.pause(); 
+             $("#Treatment2").css("display","block");
+              }
+
+             
+          
+             
+
+        }
+         myVideo.addEventListener("timeupdate", pausingINTime0);
+        //remove event Lister and play again
+       
+
+    function skipTime(time) {
+       myVideo.play();
+        myVideo.currentTime = time;
+        myVideo.play();
+    };
+  function skipTime58() {
+    pauseIndex = 4;
+       myVideo.play();
+        myVideo.currentTime = 58;
+        myVideo.play();
+        hideAll();
+    };
+
+  function skipTime48() {
+      pauseIndex =2;
+       myVideo.play();
+        myVideo.currentTime = 48;
+        myVideo.play();
+        hideAll();
+    };
+
+     function PlayAsser(){
+          //console.log("Ahmed");
+            skipTime(203); 
+            pauseIndex =12;
+         hideAll();
+        }   
+
+        function PlayBAZEER(){
+          //console.log("Ahmed");
+            skipTime(74); 
+            pauseIndex = 5;
+         hideAll();
+        }  
+
+        function PlayFromStart(){
+          //console.log("Ahmed");
+            skipTime(1); 
+            pauseIndex = 5;
+         hideAll();
+        }  
+
+         
+
+function playagain(){
+myVideo.play();
+
+
+}
+function playAndHide(x){
+myVideo.play();
+x.style.display = "none";
+
+
+}
+       
+
+       function hideAll(){
+    $("#icon1").css("display","none");
+      $("#shap1").css("display","none");
+      $("#shap2").css("display","none");
+      $("#shap3").css("display","none");
+      $("#shap4").css("display","none");
+      $("#shap5").css("display","none");
+      $("#redfile").css("display","none");
+       $("#diagnose").css("display","none");
+      $("#Asser2").css("display","none");
+      $("#Bazeer2").css("display","none");
+       $("#Next").css("display","none");
+      $("#Next2").css("display","none");
+      $("#Treatment2").css("display","none");
+            $("#skipIcon2").css("display","none");
+      $("#Mrasser").css("display","none");
+
+       }
+
+   
+       
+    </script> 
+</body>
+</html>
